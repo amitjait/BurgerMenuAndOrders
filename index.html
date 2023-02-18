@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foody</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- and messaged box for orders picked, it will be pop out after order picked! -->
+    <div class="orders active" id="orders">
+        <div class="innerDiv">
+            <div class="header">
+                YOUR ORDER (RANDOMELY PICKED)
+            </div>
+            <div class="innerOrder" id="innerOrder">
+    
+                
+            </div>
+            <div class="orderPrep active" id="orderPrep">
+                Order is being Placed...
+            </div>
+            <button id="close">Close</button> 
+        </div>
+        
+    </div>
+
+    <!-- Navingation bar  -->
+    <div class="main" id="main">
+        <div class="navOuter ">
+            <div class="nav">
+                <div class="logo">
+                    <img src="logo.png" alt="logo">
+                </div>
+                <div class="navFun">
+                    <ul class="navList">
+                        <li><i class="fa-thin fa-square-info"></i> Help</li>
+                        <li>Sing In</li>
+                        <li>Cart</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- flec container to which contains all food items -->
+        <div class="flex-container" id="container">
+             <!-- sample section for food item -->
+            <!-- <div class="food-item">
+                <img src="https://goldbelly.imgix.net/uploads/showcase_media_asset/image/134862/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.png?ixlib=react-9.0.2&auto=format&ar=1%3A1" alt="burger">
+                <div class="details">
+                    <h3>Shake Shake</h3>
+                    <p>New York, NY</p>
+                    <div class="price-rate">
+                        <span  class="rate"> &#9733; 5</span> <span>$ 49</span>
+                    </div>
+                    <h3>Discription: </h3>
+                    <p>Shake Shack ShackBurger® – 8 Pack</p>
+                </div>
+            </div> -->
+            
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
