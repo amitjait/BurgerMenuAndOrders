@@ -211,14 +211,14 @@ function createOrder(orders){
     ods.classList.remove('active');
 
     //halting the scrolling for a while
-    document.body.style = "overflow: hidden";
+    // document.body.style = "overflow: hidden";
 }
 
 // Closing button feature in Picked Orders
 let closeBtn = document.getElementById('close');
 
 closeBtn.addEventListener(('click'), ()=>{
-    document.body.style = "overflow: none";
+    // document.body.style = "overflow: none";
     let ods = document.getElementById('orders');
     ods.classList.add('active');
 })
